@@ -7,7 +7,7 @@ public class RenderDevice {
      * @return A new RenderResourceContext
      */
     public RenderResourceContext newRenderResourceContext() {
-        return new RenderResourceContext(this);
+        return new RenderResourceContext();
     }
 
 
